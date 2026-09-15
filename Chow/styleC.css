@@ -13,6 +13,24 @@ main {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
+.banner-image {
+    display: block;
+    max-width: 100%;    /* Shrinks image on mobile screens */
+    height: auto;
+    margin: 0 auto;     /* Centers block element horizontally */
+    border-radius: 8px;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 8px;
+}
+
 
 #TopBanner {
             position: fixed;
