@@ -1,9 +1,15 @@
 header{
+    background-color:blueviolet;
+    color: white;
     text-align: center;
+    padding: 15px 20px;
+    font-size: 40px;
 }
 
-
-
+main {
+    background-color: white;
+    padding: 30px;
+}
 
 section p {
     margin-bottom: 50px;
@@ -14,3 +20,29 @@ footer p {
   color: grey;
 }
 
+nav{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px;
+}
+
+nav a{
+    color: rgb(229, 179, 229);
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    background-color: purple;
+    color: white;
+}
+
+.banner img{
+    text-align: center;
+    max-width: 100%;
+}
