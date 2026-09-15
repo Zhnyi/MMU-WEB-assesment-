@@ -42,7 +42,7 @@ nav a:focus-visible {
     color: white;
 }
 
-div{
+.banner img{
     text-align: center;
-    box-sizing: border-box;
+    max-width: 100%;
 }
