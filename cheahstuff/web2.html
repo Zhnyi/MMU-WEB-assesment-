@@ -10,36 +10,304 @@
 </head>
 
 <body>
-    <header>
+    <!--Top navigation for this webpage-->
+    <nav class="local">
+        <a href="#what">Definition</a>
+        <a href="#internal">Internal Components</a>
+        <a href="#input">Input Devices</a>
+        <a href="#output">Output Devices</a>
+        <a href="#adv">Advantages and Limitations</a>
+        <a href="#workplace">Workplace Applications</a>
+    </nav>
+    <header id="top">
         <h1>Learn about computer hardware basics</h1>
     </header>
     <main>
         <!-- Definition -->
-    <section class="whatishardware">
-        <h2>What is computer hardware?</h2>
+    <section class="whatishardware" id="what">
+        <h2>[What is computer hardware?]</h2>
         <p>Computer hardware refers to the physical, tangible components of a computer system,
-        the parts you can actually see and touch, as opposed to software 
-        which is the non-physical instructions or programs that tell the hardware what to do.
-        For a full computer setup, it would consist of input and output devices.
-        Input devices are a type of hardware component that allows users to enter data 
-        and instructions into a computer. For example, the act of me (author) typing this sentence
-        uses a keyboard, which is an input device. Moving on, output devices are a type of hardware 
-        componnet that conveys information to one or more people. A simple example would be
-        you, looking at this particular sentence of a paragraph right now through a display device,
-        which is an output device.
+            the parts you can actually see and touch, as opposed to software 
+            which is the non-physical instructions or programs that tell the hardware what to do.
+            For a full computer setup, it would consist of input and output devices.
+            Input devices are a type of hardware component that allows users to enter data 
+            and instructions into a computer. For example, the act of me (author) typing this sentence
+            uses a keyboard, which is an input device. Moving on, output devices are a type of hardware 
+            componnet that conveys information to one or more people. A simple example would be
+            you, looking at this particular sentence of a paragraph right now through a display device,
+            which is an output device.
         </p>
+
+        <!-- Features -->
     </section>
-    <section class="internalhardware">
-        <h2>Types of internal hardware</h2>
-        <ul>CPU (Central Processing Unit)</ul>
-        <ul>RAM (Random Access Memory)</ul>
-        <ul>Motherboard</ul>
-        <ul>Systems unit</ul>
-        <ul>Cooling system</ul>
-        <ul>GPU (Graphics Card)</ul>
-        <ul>Adapter Cards</ul>
+    <section class="internalhardware" id="internal">
+        <h2>[Types of internal hardware]</h2>
+        <ul>
+        <li>RAM (Random Access Memory)</li>
+        <li>CPU (Central Processing Unit)</li>
+        <li>Motherboard</li>
+        <li>Cooling system</li>
+        <li>GPU (Graphics Card)</li>
+        <li>Adapter Cards</li>
+        <li>Power Supply</li>
+        </ul>
+        <figure class="ram">
+            <img src="../cheahstuff/imagery/ram.jpg" alt="RAM">
+            <figcaption>
+                Figure 1. <em> a pair of RAM modules. </em> Source: Unsplash
+            </figcaption>
+            <h3>What is RAM?</h3>
+            <p>RAM, also known as Random Access Memory, is a volatile memory that stores
+                instructions waiting to be executed by the processor, data needed by those instructions,
+                and the results of processing the data. Volatile memory means it is temporary, meaning
+                that items stored in RAM will be deleted after the systems unit powers off. 
+            </p>
+            <p>The amount of RAM, usually measured in GB(gigabytes), that is needed depends on
+                the programs and instructions. A computer with 16GB of RAM can typically run more programs simultaneously, 
+                or handle larger, more demanding software, compared to a computer with only 8GB. 
+                Of course, this hypothesis assumes the same CPU is used for both computers, which will be covered after this.
+            </p>
+        </figure>
+
+        <figure class="cpu">
+            <img src="../cheahstuff/imagery/cpu.jpg" alt="CPU">
+            <figcaption>
+                Figure 2. <em> a person holding an intel processor. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is a CPU?</h3>
+            <p>A CPU, also known as Central Processing Unit, is a chip that interprets and 
+                carries out the basic instructions that operate a computer.
+                A processor executes instructions through a repeating four-step process called a machine cycle.
+                Modern processors also use pipelining, which improves overall processing speed and efficiency.
+                All CPUs contain a control unit and an arithmetic logic unit, otherwise known as CU and ALU respectively.
+            </p>
+            <p>
+                The control unit (CU) is the component of the processor that directs and coordinates most of the operations in the computer.
+                The arithmetic logic unit (ALU) performs arithmetic, comparison, and other operations
+            </p>
+        </figure>
+
+        <figure class="motherboard">
+            <img src="../cheahstuff/imagery/motherboard.jpg" alt="Motherboard">
+            <figcaption>
+                Figure 3. <em> a black and white photo of a computer motherboard. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is a motherboard?</h3>
+            <p>The motherboard is the main circuit board of the system unit. It acts as a "connector" between
+                computer components/hardware for them to work together in order for a computer to function.
+            </p>
+            <p>
+                The motherboard also holds the ROM (Read-Only Memory) chip, which stores the essential startup instructions needed to boot the computer.
+                Unlike RAM, which is volatile and clears when the power is off, ROM retains its data permanently.
+            </p>
+        </figure>
+
+        <figure class="cooling">
+            <img src="../cheahstuff/imagery/cooling.jpg" alt="Liquid Cooling System">
+            <figcaption>
+                Figure 4. <em> computer cooling system on a yellow background. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is a computer cooling system?</h3>
+            <p> A cooling system prevents the processor and other components from overheating. Heat is generated from the CPU, which needs to be released, thus the invention of a computer cooling system.
+                Most computers use heat sinks, a metal component (often paired with a fan) that absorbs and disperses heat away from the CPU. Figure 4. shows 
+                another form of computer cooling system known as a computer liquid cooling system, which uses liquid to carry heat to the fans
+                to be released to the surroundings.
+            </p>
+        </figure>
+
+        <figure class="gpu">
+            <img src="../cheahstuff/imagery/gpu.jpg" alt="Graphics Processing Unit">
+            <figcaption>
+                Figure 5. <em> selective focus photography of a GEFORCE RTX graphics card. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is a GPU?</h3>
+            <p> GPU, also known as Graphics Processing unit, or commonly known as Graphics card, is a type of 
+                adapter card(which will be covered), it renders visual output, which is everything
+                displayed on the monitor display. Most computers, especially portable ones, will mostly only
+                come packaged with integrated graphics built into the CPU, which is sufficient for basic
+                tasks like web browsing, etc. 
+            </p>
+            <p> The graphics card shown above is a GeForce RTX graphics card, which is one of the 
+                dedicated graphics cards out there, made by NVIDIA, which is one of the leading global manufacturers of
+                graphics cards, alongside their competitors such as AMD.
+            </p>
+        </figure>
+
+        <figure class="adapter">
+            <img src="../cheahstuff/imagery/adapter.jpg" alt="Adapter Cards">
+            <figcaption>
+                Figure 6. <em> a close up of a video card on a white surface. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is an adapter card?</h3>
+            <p> An adapter card is a type of hardware that enhances functions of a component of
+                the system unit and/or provides connections to peripherals. For example, a USD adapter
+                card can provide extra USB ports on a system unit, allowing you to connect more devices
+                to the computer at a time.
+            </p>
+            <p> The motherboard contains expansion slots, which is a socket that can hold an adapter card.
+                The number of expansion slots varies depending on the motherboard, 
+                but most systems include enough slots to accommodate common adapter cards such as a graphics card and sound card.
+            </p>
+        </figure>
+
+        <figure class="power">
+            <img src="../cheahstuff/imagery/power.jpg" alt="Power Supply">
+            <figcaption>
+                Figure 7. <em> a black platinum power supply on a white surface. </em> Source: Unsplash.
+            </figcaption>
+            <h3>What is a power supply?</h3>
+            <p> A power supply, formally known as Power Supply Unit, converts electricity from a wall outlet from alternating current
+                into direct current, and also into specific voltages needed to safely power all the hardware components in the system unit.
+                Every component draws varying amount of power, so the power supply is responsible for distributing the correct amount
+                of power to each component.
+            </p>
+        </figure>
+
     </section>
+
+    <h2> Note: Input and output devices that will be featured and elaborated,
+ will only consists of devices of GENERAL individual use case only. This means
+ an output device like data projector will not be covered in this website
+ because it's use case involves more than one person, as well as devices for 
+ the physically disabled will also not be covered here. </h2>
+
+    <section class ="inputdevice", id="input">
+        <h2>[Types of input devices]</h2>
+        <ul> 
+        <li>Keyboard</li>
+        <li>Mouse & Other Pointing Devices</li>
+        <li>Microphone</li>
+        <li>Webcam</li>
+        </ul>
+    </section>
+
+    <section class="outputdevice" id="output">
+        <h2>[Types of output devices]</h2>
+        <ul>
+            <li>Display Devices</li>
+            <li>Printers</li>
+            <li>Earbuds, Headphones, and Speakers</li>
+        </ul>
+    </section>
+
+    <!--Advantages and limitations/challenges of using hardware-->
+    <section class="advlimits" id="adv">
+        <h2>Advantages and Limitations/Challenges of using Computer Hardware</h2>
+        <table>
+            <thead>
+                <tr>
+                <th>Advantages</th>
+                <th>Category</th>
+                <th>Limitations/Challenges</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Faster processing and smoother multitasking with the right specs</td>
+                <td>Performance</td>
+                <td>Requires regular upgrades to keep up with newer software demands</td>
+                </tr>
+                <tr>
+                <td>Wide range of options to fit different budgets</td>
+                <td>Cost</td>
+                <td>High-end components (GPUs, large RAM) can be expensive</td>
+                </tr>
+                <tr>
+                <td>Customizable and upgradable — swap parts as needs grow</td>
+                <td>Upgradability</td>
+                <td>Compatibility issues — not every component fits every motherboard/socket</td>
+                </tr>
+                <tr>
+                <td>Works consistently without depending on internet access</td>
+                <td>Reliability</td>
+                <td>Physical wear over time — fans, drives, and other moving parts degrade</td>
+                </tr>
+                <tr>
+                <td>Enables specialized, high-performance work (rendering, servers)</td>
+                <td>Maintenance</td>
+                <td>Requires upkeep — cooling, dust, power consumption, eventual e-waste</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<!-- Workplace Application-->
+    <section class="workplaceapplication" id="workplace">  
+        <h2>Workplace Applications</h2>
+        <p>Hardware is chosen with matching specifications to the actual workload 
+            of each role. A department that mainly works with spreadsheets and documents 
+            doesn't need the same setup as one producing video content or managing servers. 
+            The table below shows how hardware recommendations can differ across departments 
+            within the same organisation, based on their specific day-to-day tasks.</p>
+        <table>
+            <thead>
+                <tr>
+                <th>Department</th>
+                <th>Recommended Specifications</th>
+                <th>Explanation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Sales, Marketing and Finance</td>
+                <td>Intel Core i5, 16GB RAM, 512GB SSD, integrated graphics</td>
+                <td>Mainly used for spreadsheets, CRM systems, content platforms, and 
+                    web applications, they don't require dedicated graphics.</td>
+                </tr>
+                <tr>
+                <td>Creative / Design</td>
+                <td>Intel Core i7, 64GB RAM, 1TB SSD, dedicated GPU, sound card</td>
+                <td>Image and video editing require significant graphics processing 
+                    and large storage for large media files.</td>
+                </tr>
+                <tr>
+                <td>IT</td>
+                <td>Intel Core i5, 32GB RAM, 512GB SSD, integrated graphics</td>
+                <td>Managing servers and systems require extra RAM for multitasking, 
+                    but doesn't require a dedicated graphics card since the work isn't visual.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
     </main>
+
+    <!--Navigation for this webpage-->
+    <nav class="local bottomnav">
+        <a href="#what">Definition</a>
+        <a href="#internal">Internal Components</a>
+        <a href="#input">Input Devices</a>
+        <a href="#output">Output Devices</a>
+        <a href="#adv">Advantages and Limitations</a>
+        <a href="#workplace">Workplace Applications</a>
+    </nav>
+
+    <!--Navigation menu across websites-->
+    <nav class="website">
+        <a href="../Main Index1.html">Back to Group Portal</a> 
+        <a href="web1.html">Home</a>
+        <a href="web2.html">Learn</a> 
+        <a href="web3.html">Technology in Action</a> 
+        <a href="web4.html">Lifelong Learning</a> 
+        <a href="web5.html">Careers</a> 
+        <a href="web6.html">Digital Workplace Community</a>
+    </nav>
+
+    <section class="references">
+        <h1>References</h1>
+        <ul>
+            <li>Matveev, A. (2023). <em>a pair of RAM modules</em> [Photograph]. Unsplash. https://unsplash.com/photos/a-pair-of-ram-modules-sitting-on-top-of-a-white-table-orDa1I8NN6g </li>
+            <li>Wiediger, C. (2019). <em>a person holding an intel processor</em> [Photograph]. Unsplash. https://unsplash.com/photos/person-holding-intel-processor-4Iv0Z1e2nNY</li>
+            <li>Stoynov, A. (2023). <em>a black and white photo of a computer motherboard</em> [Photograph]. Unsplash. https://unsplash.com/photos/a-black-and-white-photo-of-a-computer-motherboard-b_GcLCaKt94</li>
+            <li>Matveev, A. (2025). <em>a computer cooling system on a yellow background</em> [Photograph]. Unsplash. https://unsplash.com/photos/computer-liquid-cooling-system-on-yellow-background-HMn0qjKl_Sw</li>
+            <li>Wiediger, C. (2019). <em>selective focus photography of GEFORCE RTX graphics card</em> [Photograph]. Unsplash. https://unsplash.com/photos/selective-focus-photography-of-geforce-rtx-graphics-card-3GUW88tRmv8</li> 
+            <li>Camp, A. (2023). <em>a close up of a video card on a white surface</em> [Photograph]. Unsplash. https://unsplash.com/photos/a-close-up-of-a-video-card-on-a-white-surface-CYRhbpwG8Is</li>
+            <li>Matveev, A. (2024). <em>a black platinum power supply on a white surface</em> [Photograph]. Unsplash. https://unsplash.com/photos/a-black-box-sitting-on-top-of-a-table-vfXpYMzmSew</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>[CHEAH JIA JUN][262FC262J1][CCT1114 PROJECT 2026]</p>
+    </footer>
 </body>
 
 </html>

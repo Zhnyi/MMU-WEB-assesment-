@@ -1,0 +1,124 @@
+table {
+    max-width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header{
+    background-color:blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+
+main, footer {
+    padding: 30px;
+}
+
+th, td, .workplaceapplication th, .workplaceapplication td{
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+th, .workplaceapplication th {
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(even), .workplaceapplication tr:nth-child(even) {
+    background-color: magenta;
+}
+
+tr:nth-child(odd), .workplaceapplication tr:nth-child(odd) {
+    background-color: rgb(255, 119, 255);
+}
+
+.local.bottomnav {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.website{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px;
+}
+
+.website a{
+    color: rgb(229, 179, 229);
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.website a:hover,
+.website a:focus-visible {
+    background-color: purple;
+    color: white;
+}
+
+footer p {
+  font-size: 10px;
+  color: grey;
+}
+
+.local{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.local a{
+    color: rgb(229, 179, 229);
+    text-decoration: italic;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.local a:hover,
+.local a:focus-visible {
+    background-color: blueviolet;
+    color: white;
+}
+
+li{
+    margin: 3px;
+    font-size: 30px;
+}
+
+figure{
+    margin-bottom: 200px;
+}
+
+/* References and images */
+figcaption{
+    font-size: 20px;
+    color: grey;
+}
+
+.references {
+    padding: 30px;
+    font-size: 10px;
+}
+
+img{
+    max-width: 50%;
+}
+
