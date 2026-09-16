@@ -23,6 +23,13 @@ section li {
     font-size: 22px;
 }
 
+section h2, figure h3 {
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+}
+
 main{
     padding: 10px 30px;
 }
@@ -122,6 +129,13 @@ figure{
 
 .workplaceapplication{
     margin-top: 100px;
+}
+
+.note {
+    background-color: rgb(253, 84, 118);
+    border: 2px solid black;
+    color: brown;
+    padding: 20px;
 }
 
 /* References and images */
