@@ -1,30 +1,18 @@
+/* Body style */
+
 body {
-    font-family: 'Roboto', Arial, sans-serif; 
+    font-family: 'Roboto', Arial, sans-serif;
     background-color: #f8f9fa;               
     color: #3c4043;
     margin: 0;
 }
 
-main {
-    max-width: 1000px;
-    margin: 5px auto;
-    padding: 0;
-}
 
-.card {
-    background-color: #ffffff;
-    padding: 8px;
-    margin-bottom: 8px;
-    border: 1px solid #dbe2ea;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px #524545d7;
-}
-
+/* Web1 Banner Image */
 .banner-image {
     display: block;
-    width: 100%;    /* Shrinks image on mobile screens */
+    width: 100%;    
     height: auto;
-      /* Centers block element horizontally */
     border-radius: 15px;
     align-items: center;
 }
@@ -39,6 +27,23 @@ figcaption
     margin-top: 8px;
 }
 */
+
+
+/* TopBanner Style */
+main {
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #dbe2ea;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #524545d7;
+}
 
 #TopBanner {
             position: fixed;
@@ -64,6 +69,8 @@ figcaption
 
 }*/
 
+
+
 .menu-button {
             top: 0px;
             left: 220px;
@@ -77,7 +84,7 @@ figcaption
             margin-right: auto;
             justify-content: flex-start;
             box-sizing: border-box;
-            z-index: 999;
+            
 
         }
 
@@ -95,14 +102,62 @@ figcaption
             color: #adb1b6;
         }
 
+
+/* ! Every Web Must ! */        
 #AvoidTopBannerOverlap {
             padding-top: 30px;
             padding-left: 20px;
             padding-right: 20px;
         }
-        
+  
+/*Web1*/        
 .whatGW  {
-    margin-top: 30px;
+    margin-top: 160px;
     display:flex;
 
+}
+
+#getstarted-btn {
+            height: 60px;
+            width: 240px;
+            background-color: #4aa2eb;
+            border-bottom: 1px solid #d6d9e0;
+            display: flex;
+            align-items: center;
+            margin-left: 0;
+            margin-right:0;
+            justify-content: center;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin-top: 60px;
+            text-decoration: none;
+            
+
+        }
+
+
+        #getstarted-btn a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 5px;
+            text-align: center;
+        }d
+
+        #getstarted-btn a:hover,
+        #getstarted-btn a:focus-visible {
+            background-color: #ffffff;
+            color: #adb1b6;
+            height: 60px;
+            width: auto;
+        }
+
+
+/*
+.MidPic{
+    text-align: center;
+}
+*/
+.words{
+    font-size: 18px;
 }
