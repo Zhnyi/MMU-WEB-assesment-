@@ -1,3 +1,10 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif; 
+    background-color: #f8f9fa;               
+    color: #3c4043;
+    margin: 0;
+}
+
 main {
     max-width: 1000px;
     margin: 5px auto;
@@ -17,8 +24,8 @@ main {
     display: block;
     width: 100%;    /* Shrinks image on mobile screens */
     height: auto;
-    margin: 0 0px;     /* Centers block element horizontally */
-    border-radius: 0px;
+      /* Centers block element horizontally */
+    border-radius: 15px;
     align-items: center;
 }
 /*
@@ -94,3 +101,8 @@ figcaption
             padding-right: 20px;
         }
         
+.whatGW  {
+    margin-top: 30px;
+    display:flex;
+
+}
