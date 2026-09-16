@@ -19,9 +19,12 @@ section p {
     font-size: 18px;
 }
 
+section li {
+    font-size: 22px;
+}
 
-main, footer {
-    padding: 30px;
+main{
+    padding: 10px 30px;
 }
 
 th, td, .workplaceapplication th, .workplaceapplication td{
@@ -104,7 +107,9 @@ li{
 }
 
 figure{
-    margin-bottom: 200px;
+    margin-bottom: 140px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* References and images */
@@ -113,9 +118,13 @@ figcaption{
     color: grey;
 }
 
-.references {
-    padding: 30px;
-    font-size: 10px;
+.references{
+    padding: 4px 30px;
+    font-size: 18px;
+}
+
+.references li{
+    font-size: 14px;
 }
 
 img{
