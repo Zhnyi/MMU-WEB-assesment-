@@ -7,6 +7,9 @@ body {
     margin: 0;
 }
 
+.MainTitle h1{
+    text-align: center;
+}
 
 /* Web1 Banner Image */
 .banner-image {
@@ -160,4 +163,32 @@ main {
 */
 .words{
     font-size: 18px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+#GWTools {
+    display: flex;
+    align-items: center; 
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    gap: 30px;         
+}
+
+.ToolLogo {
+    align-items: center;
+    justify-content: center;
+}
+.ToolLogo img {
+    height: 60px;       
+    width: auto;        
+    object-fit: contain;
+}
+
+.ToolLogo p{
+    margin-top:5px;
+    text-align: center;
+    text-decoration: solid;
 }
