@@ -1,13 +1,13 @@
 main {
     max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
+    margin: 5px auto;
+    padding: 0;
 }
 
 .card {
     background-color: white;
-    padding: 25px;
-    margin-bottom: 20px;
+    padding: 8px;
+    margin-bottom: 8px;
     border: 1px solid #dbe2ea;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
@@ -22,7 +22,7 @@ main {
 }
 
 figure {
-    margin: 20px 0;
+    margin: 8px 0;
 }
 
 figcaption {
@@ -37,9 +37,10 @@ figcaption {
             top: 0;
             left: 0;
             width: 100%;
-            height: 60px;
-            background-color: #ffffff;
+            height: 60x;
+            background-color: #f7f7f8;
             border-bottom: 1px solid #dadce0;
+            border-top: 1px solid #dadce0;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -48,39 +49,44 @@ figcaption {
             z-index: 1000;
 
         }
+.HomeIcon {
 
-#NavigationMenu {
+
+}
+
+.menu-button {
             position: fixed;
-            top: 60px;
-            left: 0;
+            top: 0px;
+            left: 220px;
             width: 100%;
-            height: 40px;
-            background-color: #2b81ac;
+            height: 60px;
+            background-color: #f7f7f8;
             border-bottom: 1px solid #dadce0;
             display: flex;
             align-items: center;
-            justify-content: space-around;
-            padding: 0 15px;
+            margin-left: 0;
+            margin-right: auto;
+            justify-content: flex-start;
             box-sizing: border-box;
             z-index: 999;
 
         }
 
 
-        #NavigationMenu a {
+        .menu-button a {
             color: rgb(0, 0, 0);
-            text-decoration: none;
+            text-decoration:     none;
             padding: 10px 16px;
             border-radius: 5px;
         }
 
-        #NavigationMenu a:hover,
-        #NavigationMenu a:focus-visible {
-            background-color: #226ccc;
-            color: #1e3a5f;
+        .menu-button a:hover,
+        .menu-button a:focus-visible {
+            background-color: #ffffff;
+            color: #adb1b6;
         }
 
 #AvoidTopBannerOverlap {
-            padding-top: 80px; 
+            padding-top: 30px;
         }
         
