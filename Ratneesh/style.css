@@ -42,3 +42,19 @@ nav a:hover {
 .content {
     padding: 20px;
 }
+
+/* home page */
+
+
+    .workplace-applications {
+        width: 100%;
+        border-collapse: collapse;
+        border: 30px solid #a63434;
+    }    
+
+    .workplace-applications th, td {
+        border: 1px solid #905454;
+        padding: 8px;
+    }   
+
+
