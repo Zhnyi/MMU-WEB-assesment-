@@ -90,7 +90,7 @@ footer p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 70px;
     padding: 4px;
     border: 2px solid black;
 }
