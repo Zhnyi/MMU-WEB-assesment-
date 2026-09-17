@@ -80,8 +80,11 @@
 .interestform select,
 .interestform textarea {
     display: block;
+
+    /* border box added to prevent overflow*/
+    box-sizing: border-box;
     width: 100%;
-    padding: 10px;
+    padding: 10px 20px;
     margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 5px;
