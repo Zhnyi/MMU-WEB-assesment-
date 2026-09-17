@@ -174,7 +174,8 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     justify-content: center;
-    gap: 30px;         
+    gap: 30px;    
+    margin-top: 70px;     
 }
 
 .ToolLogo {
@@ -191,4 +192,72 @@ main {
     margin-top:5px;
     text-align: center;
     text-decoration: solid;
+}
+
+/*
+#web2def{
+    display: flex;
+}
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th{
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+    background-color: #4aa2eb;
+}
+
+td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    text-align: left;
+}
+
+th a{
+    text-decoration: none;
+    
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #dadce0;
+    margin: 24px 0;
+}
+
+.detail-Tools-icon img{
+    height: 50px;
+    width: auto;
+
+}
+
+.detail-Tools-icon {
+    height: 60px;
+    width: 180px;
+    background-color: #a2c0d8;
+    border-bottom: 1px solid #d6d9e0;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right:0;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+
+.detail-Tools-icon img{
+    height: 50px;
+    width: auto;
+}
+
+#Iconname{
+    text-decoration: none;
+    text    ;
 }
