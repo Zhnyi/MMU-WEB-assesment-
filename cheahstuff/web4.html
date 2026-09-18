@@ -35,9 +35,17 @@
             </p>
             <p>For example, I wanted to center the images and the APA citation under it, I have used display: flex; and justify-content: center;. But I found out independently that,
                 justifying content towards the center includes all characters of the citation under it, making each character adjacent to each other with no spacing between them. As an
-                example, justifying content to the center turns "text sentence 2" into "textsentence2". This was a problem initially because I wanted to align them all towards the center, but I later gave up the idea and leave it aligned to the left.
+                example, justifying content to the center turns "text sentence 2" into "textsentence2", everything is aligned towards the center. This was a problem initially because I wanted to align them all towards the center, but I later gave up the idea and leave it aligned to the left.
             </p>
-            <p>Another thing I have learnt independently is how to apply APA 7th generation citations into the website. I've learnt to use the figure semantic and figcaptions as the APA titie. 
+            <p>I have also learnt display:flex and display: block. Flex is to make children elements of one major element to be arranged side by side horizontally.
+                Whereas, display: block is needed to solve for certain elements that are arranged side-by-side by default, in other terms elements that are inline-block by default,
+            like the [form] element or [a] element (links). This is an incredible discovery because I actually feel like I've learnt something really important about html design</p>
+            <p>Another thing I have learnt independently is how to apply APA 7th generation citations into the website. I've learnt to use the figure semantic and figcaptions as the APA titie. Also
+                discovered what inlines, and blocks are from simply making citations. I understood that the element [em] is an inline, meaning it exists within an existing text, like a word in a sentence.
+                a block means it exists as a block, a paragraph. If an element block is in an element block, there will be two separated texts (separated horizontally), assuming both blocks each are a single paragraph text.
+            </p>
+            <p>Next, I've also understood that most common elements have their own default categories. For example, I can change the [p] (paragraph) element from its default category [Block]
+                into [Inline] by writing p { display: inline; } into CSS code, which would make it function similarly with [em] element.
             </p>
             <p>Finally, I have learnt that writing html and css code is no joke.</p>
         </section>
@@ -256,15 +264,20 @@
 
                 <fieldset>
                     <legend>Topics you are interested in</legend>
-
+                    <div class="checkboxrow">
+                        <div>
                     <input type="checkbox" id="internal" name="topic" value="internal">
                     <label for="internal">Internal hardware components</label>
-
+                        </div>
+                        <div>
                     <input type="checkbox" id="inputoutput" name="topic" value="inputoutput">
                     <label for="inputoutput">Input and output devices</label>
-
+                        </div>
+                        <div>
                     <input type="checkbox" id="careers" name="topic" value="careers">
                     <label for="careers">Hardware-related IT careers</label>
+                        </div>
+                    </div>
                 </fieldset>
 
                 <fieldset>

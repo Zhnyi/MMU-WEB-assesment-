@@ -9,6 +9,7 @@
 
 .card {
     background-color: white;
+    /* I found out that the "solid" line is the customization of the border line*/
     border: 2px solid purple;
     border-radius: 10px;
     padding: 20px;
@@ -92,13 +93,17 @@
 }
 
 /* Checkbox labels stay on the same line as their checkbox */
-.interestform input[type="checkbox"] {
-    margin-right: 8px;
+.checkboxrow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .interestform label {
     font-size: 20px;
 }
+
 
 
 /* ---- Buttons ---- */
