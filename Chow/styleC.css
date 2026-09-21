@@ -235,10 +235,11 @@ hr{
     margin: 24px 0;
 }
 
-
+/*
 .removeline{
     text-decoration: none;
     color: inherit;
+    
 }
 
 
@@ -267,4 +268,53 @@ hr{
     margin-left: 10px;
     font-size: 25px;
     font-weight: bold;
+}
+
+.detail-text-vid{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    display:block;
+}
+
+*/
+
+
+.removeline {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block; /* Restricts the clickable link area to ONLY the button size */
+    width: fit-content;    /* Prevents the link from expanding across the full screen width */
+}
+
+.detail-Tools-icon {
+    height: 60px;
+    width: 180px;
+    background-color: #a2c0d8;
+    border-bottom: 1px solid #d6d9e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.detail-Tools-icon img {
+    height: 36px; /* Resized down from 50px to fit comfortably within the 60px height */
+    width: auto;
+    justify-content: center;
+}
+
+.detail-Tools-icon span {
+    margin-left: 10px;
+    font-size: 18px; /* Adjusted down from 25px so text fits inside 180px width */
+    font-weight: bold;
+}
+
+.detail-text-vid {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 16px; /* Reduced from 25px for comfortable body paragraph reading */
+    display: block;  /* Changed from flex to block for standard text flow */
 }
