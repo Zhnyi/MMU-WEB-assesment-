@@ -22,12 +22,6 @@
     margin-top: 0;
 }
 
-/* Hover effect: the border and shadow deepen when the pointer is over a card */
-.card:hover {
-    border-color: blueviolet;
-    box-shadow: 5px 5px 12px grey;
-}
-
 
 /* ---- Page 3 infographic: four cards side by side ---- */
 
