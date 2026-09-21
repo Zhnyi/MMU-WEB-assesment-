@@ -32,6 +32,7 @@
 /* ---- Page 3 infographic: four cards side by side ---- */
 
 .infographic {
+    /* display flex to make the cards side by side, flex-wrap to make the boxes arrange flexibly when the screen collapses*/
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -121,6 +122,7 @@ button {
 button:hover {
     background-color: blueviolet;
 }
+
 
 
 /* ---- Responsive layout ---- */

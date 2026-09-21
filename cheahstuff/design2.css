@@ -65,6 +65,9 @@ tr:nth-child(odd), .workplaceapplication tr:nth-child(odd) {
     flex-wrap: wrap;
     gap: 8px;
     padding: 12px;
+    position: sticky;
+    bottom: 0;
+    border: 2px solid black;
 }
 
 .website a{
@@ -93,10 +96,14 @@ footer p {
     gap: 70px;
     padding: 4px;
     border: 2px solid black;
+    /* Sticky navigation */
+    position: sticky;
+    top: 0;
 }
 
 .local a{
     color: rgb(229, 179, 229);
+    /* Each page's local navigation will be underlined/in italic to set it apart from the webside-wide navigation*/
     text-decoration: italic;
     padding: 4px 8px;
     border-radius: 4px;
