@@ -1,11 +1,6 @@
-/* ============================================================
-   ADD THESE RULES TO THE BOTTOM OF design2.css
-   They style the new elements used on Page 3, Page 4 and Page 5:
-   cards, the infographic, the resource list, and the form.
-   ============================================================ */
 
 
-/* ---- Cards / content containers (Page 3 infographic, Page 4 resources) ---- */
+/*page 3 page 4 cards*/
 
 .card {
     background-color: white;
@@ -23,7 +18,7 @@
 }
 
 
-/* ---- Page 3 infographic: four cards side by side ---- */
+/* page 3 cards side to side*/
 
 .infographic {
     /* display flex to make the cards side by side, flex-wrap to make the boxes arrange flexibly when the screen collapses*/
@@ -40,7 +35,7 @@
 }
 
 
-/* ---- Page 4 resource list: cards stacked down the page ---- */
+/* page 4 card stack */
 
 .resourcelist {
     display: flex;
@@ -51,7 +46,7 @@
 }
 
 
-/* ---- Page 4 form ---- */
+/* page 4 form*/
 
 .interestform {
     max-width: 70%;
@@ -71,7 +66,7 @@
     padding: 0 10px;
 }
 
-/* Text inputs, dropdown and textarea sit on their own line */
+/* text inputs, dropdown selection thingy and textarea */
 .interestform input[type="text"],
 .interestform input[type="email"],
 .interestform select,
@@ -88,7 +83,7 @@
     font-size: 18px;
 }
 
-/* Checkbox labels stay on the same line as their checkbox */
+/* checkbox labels stay on the same line as the checkboxes */
 .checkboxrow {
     display: flex;
     justify-content: center;
@@ -102,7 +97,7 @@
 
 
 
-/* ---- Buttons ---- */
+/* Buttons */
 
 button {
     background-color: purple;
@@ -118,23 +113,3 @@ button:hover {
     background-color: blueviolet;
 }
 
-
-
-/* ---- Responsive layout ---- */
-
-/* On narrow screens the cards stack instead of sitting side by side,
-   and the form uses the full width */
-@media (max-width: 700px) {
-
-    .infographic {
-        flex-direction: column;
-    }
-
-    .interestform {
-        max-width: 100%;
-    }
-
-    table {
-        max-width: 100%;
-    }
-}
