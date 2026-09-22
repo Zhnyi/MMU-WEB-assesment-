@@ -44,6 +44,7 @@
 
 .resourcelist {
     display: flex;
+    /* Makes the cards stack vertically*/
     flex-direction: column;
     gap: 25px;
     margin: 30px 0;
