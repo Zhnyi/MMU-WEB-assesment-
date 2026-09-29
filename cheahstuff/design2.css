@@ -2,8 +2,6 @@ table {
     max-width: 70%;
     border-collapse: collapse;
     margin: 20px auto;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 header{
@@ -41,16 +39,16 @@ th, td, .workplaceapplication th, .workplaceapplication td{
 }
 
 th, .workplaceapplication th {
-    background-color: purple;
+    background-color: blueviolet;
     color: white;
 }
 
 tr:nth-child(even), .workplaceapplication tr:nth-child(even) {
-    background-color: magenta;
+    background-color: rgb(157, 102, 212);
 }
 
 tr:nth-child(odd), .workplaceapplication tr:nth-child(odd) {
-    background-color: rgb(255, 119, 255);
+    background-color: rgb(188, 125, 246);
 }
 
 .local.bottomnav {
