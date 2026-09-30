@@ -2,8 +2,6 @@ table {
     max-width: 70%;
     border-collapse: collapse;
     margin: 20px auto;
-    border-radius: 10px;
-    overflow: hidden;
 }
 
 header{
@@ -41,16 +39,16 @@ th, td, .workplaceapplication th, .workplaceapplication td{
 }
 
 th, .workplaceapplication th {
-    background-color: purple;
+    background-color: blueviolet;
     color: white;
 }
 
 tr:nth-child(even), .workplaceapplication tr:nth-child(even) {
-    background-color: magenta;
+    background-color: rgb(157, 102, 212);
 }
 
 tr:nth-child(odd), .workplaceapplication tr:nth-child(odd) {
-    background-color: rgb(255, 119, 255);
+    background-color: rgb(188, 125, 246);
 }
 
 .local.bottomnav {
@@ -65,6 +63,9 @@ tr:nth-child(odd), .workplaceapplication tr:nth-child(odd) {
     flex-wrap: wrap;
     gap: 8px;
     padding: 12px;
+    position: sticky;
+    bottom: 0;
+    border: 2px solid black;
 }
 
 .website a{
@@ -93,10 +94,14 @@ footer p {
     gap: 70px;
     padding: 4px;
     border: 2px solid black;
+    /* Sticky navigation */
+    position: sticky;
+    top: 0;
 }
 
 .local a{
     color: rgb(229, 179, 229);
+    /* Each page's local navigation will be underlined/in italic to set it apart from the webside-wide navigation*/
     text-decoration: italic;
     padding: 4px 8px;
     border-radius: 4px;
