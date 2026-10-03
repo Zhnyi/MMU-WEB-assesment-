@@ -1,0 +1,115 @@
+
+
+/*page 3 page 4 cards*/
+
+.card {
+    background-color: white;
+    /* I found out that the "solid" line is the customization of the border line*/
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    /* Shadow element */
+    box-shadow: 3px 3px 8px grey;
+}
+
+.card h3 {
+    color: purple;
+    margin-top: 0;
+}
+
+
+/* page 3 cards side to side*/
+
+.infographic {
+    /* display flex to make the cards side by side, flex-wrap to make the boxes arrange flexibly when the screen collapses*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.infographic .card {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+
+/* page 4 card stack */
+
+.resourcelist {
+    display: flex;
+    /* Makes the cards stack vertically*/
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+
+/* page 4 form*/
+
+.interestform {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.interestform fieldset {
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.interestform legend {
+    color: purple;
+    font-size: 24px;
+    padding: 0 10px;
+}
+
+/* text inputs, dropdown selection thingy and textarea */
+.interestform input[type="text"],
+.interestform input[type="email"],
+.interestform select,
+.interestform textarea {
+    display: block;
+
+    /* border box added to prevent overflow*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* checkbox labels stay on the same line as the checkboxes */
+.checkboxrow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.interestform label {
+    font-size: 20px;
+}
+
+
+
+/* Buttons */
+
+button {
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
