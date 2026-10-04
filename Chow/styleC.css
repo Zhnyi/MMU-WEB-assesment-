@@ -471,9 +471,7 @@ code {
     font-family: monospace;
 }
 
-/* ==========================================
-   3. SKILLS GRID (SECTION 3)
-   ========================================== */
+
 .skills-grid {
     display: flex;
     gap: 16px;
@@ -506,8 +504,7 @@ code {
 }
 
 /* ==========================================
-   4. FUTURE LEARNING ROADMAP (SECTION 5)
-   ========================================== */
+   4. FUTURE LEARNING ROADMAP (SECTION 5)*/
 .roadmap-list {
     display: flex;
     flex-direction: column;
@@ -518,7 +515,7 @@ code {
     display: flex;
     align-items: flex-start;
     background-color: #f8f9fa;
-    border-left: 4px solid #34a853; /* Google Green Accent */
+    border-left: 4px solid #34a853; 
     border-radius: 4px;
     padding: 16px;
 }
