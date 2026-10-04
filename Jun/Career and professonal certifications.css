@@ -1,0 +1,138 @@
+.career-category {
+    flex: 1;            /* Forces both sections to take up equal width */
+    padding: 15px;      /* Adds space inside the boxes */
+    border: 1px solid #ccc; /* Optional: adds a border to see the boxes clearly */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+.career-grid {
+    flex: 1;            /* Forces both sections to take up equal width */
+    padding: 15px;      /* Adds space inside the boxes */
+    border: 1px solid #7685f5; /* Optional: adds a border to see the boxes clearly */
+    border-radius: 8px; /* Optional: rounds the corners */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f6ff;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #3155a4;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Introduction sections */
+section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #3155a4;
+}
+
+h4 {
+    color: #444;
+}
+
+/* Career category */
+.career-category {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    border: 1px solid #d6def2;
+}
+
+/* Category headings */
+.career-category h2 {
+    color: #3155a4;
+    margin-top: 0;
+}
+
+/* Career cards */
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Individual career items */
+.career-grid h3 {
+    background-color: #e5edff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    color: #263f7a;
+}
+
+.career-grid p {
+    background-color: #f8faff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    min-height: 80px;
+}
+
+/* Icons */
+.icon {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #263f7a;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+
+/* When mouse goes over a link */
+nav a:hover {
+    background-color: #4d6fc1;
+    border-radius: 5px;
+}
+.technology-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.technology-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.technology-card h3 {
+    margin-top: 0;
+}
+
+.technology-card a {
+    text-decoration: none;
+}
