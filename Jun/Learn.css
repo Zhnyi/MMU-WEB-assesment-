@@ -1,0 +1,226 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f6ff;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #3155a4;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+/* Introduction sections */
+section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #3155a4;
+}
+
+h4 {
+    color: #444
+}
+/* Icons */
+.icon {
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #263f7a;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+}
+
+/* When mouse goes over a link */
+nav a:hover {
+    background-color: #4d6fc1;
+    border-radius: 5px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+/* Main table styling */
+.career-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #333333;
+  background-color: #ffffff;
+  text-align: left;
+  min-width: 600px; /* Prevents rows from squeezing too tightly */
+}
+
+/* Header styling */
+.career-table thead tr {
+  background-color: #1e293b; /* Dark slate blue */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.career-table th {
+  padding: 16px 20px;
+  letter-spacing: 0.5px;
+}
+
+/* Table body row styling */
+.career-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+/* Alternating row colors for better readability */
+.career-table tbody tr:nth-of-type(even) {
+  background-color: #f8fafc;
+}
+
+/* Highlight effect on hover */
+.career-table tbody tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color 0.2s ease;
+}
+
+/* Styling for the first column (Dimensions) */
+.career-table td.feature-name {
+  font-weight: 600;
+  color: #0f172a;
+  width: 20%; /* Restricts the first column size so text columns have more room */
+}
+
+/* Base Section Styling */
+section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* Typography */
+h2 {
+  font-size: 2rem;
+  color: #1a202c;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+strong {
+  color: #1e689d; /* Highlights "ALOT" in a subtle stress-red color */
+  font-weight: 700;
+}
+
+/* Base Section Styling */
+section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px 0; /* Changed from "auto" to "0" to align to the left */
+  padding: 20px 20px 20px 0; /* Removed left padding to flush with the edge */
+  color: #333333;
+  line-height: 1.6;
+  text-align: left; /* Ensures all text is explicitly left-aligned */
+}
+
+/* Typography */
+h2 {
+  font-size: 2rem;
+  color: #1a202c;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+strong {
+  color: #324aac;
+  font-weight: 700;
+}
+
+/* Key Limitations Grid/Container */
+.Key.limitations {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+/* Individual Challenge Cards */
+.Key.limitations h3 {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/* Visual accent indicator next to headings */
+.Key.limitations h3::before {
+  content: "•";
+  color: #3182ce;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+}
+
+/* Explanation Box styling */
+.explanation {
+  background-color: #f7fafc;
+  border-left: 4px solid #3182ce;
+  padding: 4px 16px;
+  border-radius: 0 6px 6px 0;
+}
+
+.explanation p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+nav {
+  align-items: center;
+  justify-content: center;
+}
