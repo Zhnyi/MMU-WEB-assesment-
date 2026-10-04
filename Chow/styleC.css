@@ -396,6 +396,176 @@ hr{
     margin-top: 20px;
 }
 
+
+/*----------------------------------------------------------------------------*/
+
+/* ==========================================
+   1. PAGE HEADER
+   ========================================== */
+.page-header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-family: Arial, sans-serif;
+    color: #1a73e8; /* Google Blue */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.page-subtitle {
+    font-family: Arial, sans-serif;
+    color: #5f6368; /* Google Gray */
+    font-size: 16px;
+    margin: 0;
+}
+
+.learning-section {
+    background-color: #ffffff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.section-title {
+    font-family: Arial, sans-serif;
+    color: #202124;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.card-content p {
+    font-family: Arial, sans-serif;
+    color: #3c4043;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.card-content ul {
+    font-family: Arial, sans-serif;
+    color: #3c4043;
+    font-size: 15px;
+    line-height: 1.6;
+    padding-left: 20px;
+}
+
+.card-content li {
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f1f3f4;
+    color: #d93025; /* Google Red for code text */
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+/* ==========================================
+   3. SKILLS GRID (SECTION 3)
+   ========================================== */
+.skills-grid {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    flex: 1;
+    min-width: 220px; /* Makes it responsive on small screens */
+}
+
+.skill-card h3 {
+    font-family: Arial, sans-serif;
+    color: #1a73e8;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-family: Arial, sans-serif;
+    color: #3c4043;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ==========================================
+   4. FUTURE LEARNING ROADMAP (SECTION 5)
+   ========================================== */
+.roadmap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.roadmap-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    border-left: 4px solid #34a853; /* Google Green Accent */
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.step-number {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #34a853;
+    margin-right: 16px;
+}
+
+.roadmap-item h3 {
+    font-family: Arial, sans-serif;
+    color: #202124;
+    font-size: 18px;
+    margin: 0 0 6px 0;
+}
+
+.roadmap-item p {
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ==========================================
+   5. REFLECTION QUOTE (SECTION 6)
+   ========================================== */
+.reflection-quote {
+    background-color: #e8f0fe; /* Google Light Blue */
+    border-left: 5px solid #1a73e8;
+    margin: 0 0 20px 0;
+    padding: 12px 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.reflection-quote p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #174ea6;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
 /*----------------------------------------------------------------------------*/
 
 .icon {
