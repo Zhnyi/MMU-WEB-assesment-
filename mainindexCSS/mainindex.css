@@ -1,0 +1,104 @@
+/* ===========================
+   Digital Workplace Readiness Portal
+   Group Portal Homepage Styling
+   =========================== */
+
+
+/* Note: This group portal home page CSS is entirely made with AI due to extremely limited time. Sorry in advance. -Cheah Jia Jun */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #222;
+  background: #f4f6f8;
+}
+
+header {
+  background: #222a9c;
+  color: #ffffff;
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 1rem;
+  color: #d6e2ec;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #1b3a57;
+  border-bottom: 2px solid #1b3a57;
+  padding-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+thead th {
+  background: #1b3a57;
+  color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+  background: #f0f4f7;
+}
+
+tbody tr:hover {
+  background: #e4edf4;
+}
+
+table a {
+  display: inline-block;
+  background: #2a6ea6;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+table a:hover {
+  background: #222a9c;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: #222a9c;
+  color: #d6e2ec;
+  font-size: 0.9rem;
+}
