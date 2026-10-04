@@ -1,60 +1,295 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
-    padding: 0;
+    background-color: #fcfcfc;
 }
 
-header {
-    background-color: #004080;
+header{
+    background-color: teal;
+    align-items:center;
     color: white;
-    padding: 20px;
-    text-align: center;
+
+    padding:15px 40px;
 }
 
 nav {
-    background-color: #333;
-    overflow: hidden;
+    background-color: rgb(211, 206, 149);
+    text-align: center;
+    padding: 15px;
+    display: flex
 }
 
 nav a {
-    float: left;
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: ;
+    color: teal;
 }
 
 .banner {
-    width: 100%;
-    height: 250px;
-    background-image: url('banner.jpg');
-    background-size: cover;
-    background-position: center;
+    display:flex;
+    font-size: 20px;
+    align-items:center;
+    justify-content:space-between;
+    background-color:rgb(207, 205, 187);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.1);
+    margin:40px;
+}
+
+.banner-image img{
+    margin-left: auto;
+    border-radius: 20px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.15);
 }
 
 .content {
-    padding: 20px;
+    padding: 50px;
+    font-size: 20px;
 }
 
-/* home page */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #0A2647;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.Advantages {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.features {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    diplay: flex;
+}
+
+.banner2-image img{
+    border-radius: 20px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.15);
+}
+
+.pictures {
+    display: flex;
+}
+
+.Education1 {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.banner3-image img{
+    border-radius: 20px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.15);
+    margin-right: auto;
+}
 
 
-    .workplace-applications {
-        width: 100%;
-        border-collapse: collapse;
-        border: 30px solid #a63434;
-    }    
+.Education2 {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
 
-    .workplace-applications th, td {
-        border: 1px solid #905454;
-        padding: 8px;
-    }   
+.banner4-image img{
+    border-radius: 20px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.15);
+    margin-right: auto;
+}
 
+.Healthcare1 {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
 
+.banner5-image img{
+    border-radius: 20px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.15);
+    margin-right: auto;
+}
+
+.Healthcare2 {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Healthcare3 {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Goverment1 {
+     background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Goverment2 {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Goverment3 {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Goverment4 {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.Lifelong {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.Microsoft-Learn {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+    color: black;
+    text-decoration: none;
+}
+
+.Coursera {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+}
+
+.Linkedln-Learning {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+}
+
+.Cisco {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+}
+
+.fCC {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: flex;
+}
+
+.software {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+}
+
+.C-A {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display:flex;
+}
+
+.quote {
+    background-color: rgb(207, 205, 187);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin center: auto;
+
+}
+
+.community-table {
+    background-color: rgb(220, 220, 216);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    diplay: flex;
+}
